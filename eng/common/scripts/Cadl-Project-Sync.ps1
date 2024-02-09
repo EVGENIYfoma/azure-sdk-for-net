@@ -1,7 +1,6 @@
 # For details see https://github.com/Azure/azure-sdk-tools/blob/main/doc/common/Cadl-Project-Scripts.md
 
-[CmdletBinding()]
-param (
+--jsonparam (
     [Parameter(Position=0)]
     [ValidateNotNullOrEmpty()]
     [string] $ProjectDirectory
